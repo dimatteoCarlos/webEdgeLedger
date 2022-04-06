@@ -1,0 +1,40 @@
+#what .m-heading{
+  margin-bottom:2rem;
+  margin-top:0;
+}
+
+#what .items .item{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*Position icon*/
+#what .items .item i{
+  margin-right:1.3rem;
+  align-self:center;
+  margin-bottom:0;
+}
+#contact{
+  display:flex;
+}
+#contact .contact-form{
+    flex:1;
+  }
+#contact .map{
+    flex:2;
+  }
+
+#who .staff-heading{
+  margin-bottom:1.8rem;
+  margin-top:0;
+}
+#contact{
+  top:25px;
+}
+
+#contact h2{
+  margin-top:2rem;
+}
+
+
