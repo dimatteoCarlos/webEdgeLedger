@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="single page, css variables, some js program for googlemap, fade sticky navbar menu">
+  <meta name="author" content="cadr">
 
+  <!--NOT NECESSARY-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
 
-  <link rel="stylesheet" media="screen and (max-width:500px) "href="/css/mobile.css">
+<link rel="stylesheet" href="../css/style.css">
 
-  <!-- <link rel="stylesheet" media="screen and (min-width:1100px) "href="/css/widescreen.css"> -->
+<link rel="stylesheet" media="screen and (max-width:768px)" href="../css/mobile.css">
 
-  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" media="screen and (min-width:1100px) "href="/css/widescreen.css">
 
-  <title>EdgeLedger | Accounting & Investment Advisors</title>
+  <title>LeadLedger | Financial Advisors </title>
 </head>
+
 <body id="home">
 
 <!--navbar-->
@@ -22,9 +26,7 @@
 <h1 id="logo">
   <span class="primary-text">
    <i class="fa fa-book-open fa-1x"></i>
-   Edge
-  </span>
-  Ledger
+   Lead</span>Ledger
 </h1>
 <ul id="menu">
   <li><a href="#home">Home</a></li>
@@ -32,20 +34,21 @@
   <li><a href="#who">Who</a></li>
   <li><a href="#contact">Contact</a></li>
 </ul>
-
 </navbar>
+
 <!--SHOWCASE-->
 <header id="showcase">
   <div class="showcase-content">
     <h1 class="l-heading text-center ">
      The <span class="primary-text"> Sky</span>
       Is The Limit
-    </h2>
+    </h1>
     <p class="lead">"The individual investor should act consistently as an investor and not as a speculator." 
 <br><br>
-If opportunity doesn't knock, Build a Door!</p>
+<span class="msg-phrase">If opportunity doesn't knock, Build a Door!</span>
+</p>
 
-    <a href="#what" class="btn">Read More</a>
+<a href="#what" class="btn">Read More</a>
 
   </div><!--end-showcase-content-->
 </header>
@@ -53,22 +56,28 @@ If opportunity doesn't knock, Build a Door!</p>
 <!--What We Do Section-->
 <section id="what" class="bg-light py-1">
   <div class="container">
-    <h2 class="m-heading text-center">
-      <span class="primary-text ">What</span>
-      We Do
-    </h2>
+    <div class="text">
+      <h2 class="m-heading text-center">
+        <span class="primary-text ">What</span>
+        We Do
+      </h2>
+    </div>
 
     <div class="items">
       <div class="item">
-        <i class="fa fa-university fa-2x"></i>
-        <h3 class="s-heading">
-          Investment Backing
+        <i class="fa fa-university fa-3x"></i>
+        <h3 class="s-heading text-center">
+          Investment Banking
         </h3>
-        <p>A financial advisor provides financial advice or guidance to customers for compensation. Financial advisors (sometimes spelled as advisers) can provide many different services, such as investment management, tax planning, and estate planning..</p>
+        <p>Financial advisers provide clients with specialist advice ,on how to manage their money.
+        </p><br><p>
+          Financial advisors (sometimes spelled as advisers) can provide many different services, such as investment management, tax planning, and estate planning..</p>
+        <br>
+        
       </div><!--end of item-->
 
       <div class="item">
-        <i class="fa fa-book-reader fa-2x"></i>
+        <i class="fa fa-book-reader fa-3x"></i>
         <h3 class="s-heading text-center">
           Portfolio Management
         </h3>
@@ -78,7 +87,7 @@ If opportunity doesn't knock, Build a Door!</p>
       </div><!--end of item-->
 
       <div class="item">
-        <i class="fa fa-pencil-alt fa-2x"></i>
+        <i class="fa fa-pencil-alt fa-3x"></i>
         <h3 class="s-heading text-center">
           Tax & Custodial
         </h3>
@@ -86,9 +95,8 @@ If opportunity doesn't knock, Build a Door!</p>
         <br>
         <p>
         Once the account is opened, it can provide an opportunity to teach some basic investing skills. You might talk about goals and discuss investment choices, review account statements, and discuss gains and losses.</p>
-
       </div><!--end of item-->
-    </div>
+    </div><!--end of items-->
   </div><!--end of container-->
 </section><!--end of What We Do Section-->
 
@@ -101,9 +109,10 @@ If opportunity doesn't knock, Build a Door!</p>
 
     <div class="who-content bg-dark p-2"><!--item2-->
         <h2 class="staff-heading m-heading"><span class="primary-text ">Who</span> We Are</h2>
-        <p>Meet our talented team of financial advisers who partner with you … helping you to make smart decisions with your money so you can build wealth, reach your financial goals and retire your way.</p>
+        <p>Meet our talented team of financial advisers who partner with you, helping you to make smart decisions with your money so you can build wealth, reach your financial goals and retire your way.</p>
         <br>
-        <h3><b>Our Team</b></h3>
+        <h3><b><span class="m-heading"> Our
+          <span class='primary-text'> Team</span></span></b></h3>
         <ul class="list">
           <li>Mark Smith: CEO</li>
           <li>Shannon Johnson: CFO</li>
@@ -120,14 +129,13 @@ If opportunity doesn't knock, Build a Door!</p>
 <!--Section: Our Clients-->
 <section id="clients" class=" py-1">
   <div class="container ">
-   
     <h2 class="m-heading text-center">Our <span class="primary-text">Clients</span> </h2>
 
     <div class="items p-1">
       <div class="client-logo">
         <img src="../img/logos/logo1.png" alt="client-logo1" >
       </div>
-      <!-- (.client-logo$>img[src=../img/logos/logo$.png alt=client-logo$]) -->
+   
       <div class="client-logo"><img src="../img/logos/logo2.png" alt="client-logo2"></div>
 
       <div class="client-logo"><img src="../img/logos/logo3.png" alt="client-logo3"></div>
@@ -137,33 +145,33 @@ If opportunity doesn't knock, Build a Door!</p>
       <div class="client-logo">
         <img src="../img/logos/logo5.png" alt="client-logo5">
       </div>
-
-  </div> <!--end of items-->
-  </div><!--end of client container-->
+  </div> <!--end of container-->
 </section><!--end of section:clients-->
 
 <!--Section: Contact Us-->
 <section id="contact">
-
-  <div class="contact-form  bg-primary p-2">
-      <h1 class="contact-leading ">Contact Us
+<div class="contact-form  bg-primary p-2">
+      <h1 class="contact-leading text-center m-heading">Contact Us
       </h1>
-      <p>Please use the form below to contact us
-      </p>
+      <p class="text-center">Please use the form below to contact us</p>
       
-      <form>
+      <form class="contact-form">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" autocomplete="off" placeholder="Enter Name">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="Enter Name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]{2,20}$"
+            title="Use just letters and spaces, (2 to 30 characters)"
+            required>
           </div>
-
-          <div class="error-name">
-            Name must be between 2 and 10 characters
-          </div><!--is-invalid feedback-->
 
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" autocomplete="off" placeholder="Enter Email">
+            <input type="email" name="email" id="email" autocomplete="on" placeholder="Enter Email"
+            title="Write a right email format"
+             pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+             
+             
+             required
+            >
           </div>
 
           <div class="form-group">
@@ -173,34 +181,39 @@ If opportunity doesn't knock, Build a Door!</p>
 
           <div class="form-group">
             <label for="message">Your Message</label>
-            <textarea type="text" name="message" id="message" autocomplete="off" placeholder="Enter a Message">
+            
+            <textarea type="text" name="message" id="message" autocomplete="off" placeholder="Enter your Message" title="Please write your comments (1 to 50 characters), thanks" 
+            required data-pattern="^.{1,50}$">
             </textarea>
           </div>
 
           <input  class="btn-dark btn" type="submit" value="Send">
-      </form>
-  </div><!--contact-form-->
-  
-  <div class="map">
-    <!-- <p id="mapMsg"></p> -->
-  </div>
 
+        </form>
+  </div><!--contact-form-->
+  <div class="map">
+    <p id="mapMsg"></p>
+  </div>
+<!-- </div> -->
 </section><!--contact-->
 
 <section id="footer">
   <div class="footer-content bg-dark py-1 text-center s-heading">
     <p>
-      Copyright &copy; 2022, EdgerLedger, All Rigths Reserved
+      Copyright &copy; 2022, LeadLedger, All Rigths Reserved
     </p>
   </div>
 </section>
-<script src="/js/main.js"></script>
-<!-- <script src="main.js"></script> -->
+
+<!--Local JS -->
+<script src="../js/main.js" ></script>
+<script src="../js/func-comp.js" type="module"></script>
 
 <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+
+<!--Google Maps-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK8NEvXfMzrqy3lJo4LoRJmXNkmNaQlFY&callback=initMap"
 async defer></script>
 
 </body>
 </html>
-

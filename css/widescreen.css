@@ -1,40 +1,71 @@
-#what .m-heading{
-  margin-bottom:2rem;
-  margin-top:0;
+#navbar,
+#navbar ul {
+  font-size: 2rem;
 }
 
-#what .items .item{
-  display:flex;
-  flex-direction: column;
-  text-align: center;
+/* Align icon to left */
+#what .items .item {
+  display: flex;
+  text-align: left;
 }
 
 /*Position icon*/
-#what .items .item i{
-  margin-right:1.3rem;
-  align-self:center;
-  margin-bottom:0;
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  font-size: 5.5rem;
+  margin-bottom: 0;
 }
-#contact{
-  display:flex;
+#what .items .item h3 {
+  margin-right: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
-#contact .contact-form{
-    flex:1;
-  }
-#contact .map{
-    flex:2;
-  }
-
-#who .staff-heading{
-  margin-bottom:1.8rem;
-  margin-top:0;
-}
-#contact{
-  top:25px;
-}
-
-#contact h2{
-  margin-top:2rem;
+#what .items .item p {
+  font-size: 1.2rem;
+  margin-right: 1.1rem;
+  text-align: center;
 }
 
 
+
+#who .image {
+  flex: 2;
+}
+#who .who-content {
+  text-align: center;
+}
+#who .who-content h3 {
+  margin-top: 2rem;
+}
+#who .who-content ul {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+#who .who-content p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+#clients h2 {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+#clients .items {
+  /* display: flex; */
+  justify-content: space-around;
+}
+
+.items img {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 3rem;
+}
+
+#contact .map {
+  flex: 2;
+  flex-basis: 100%;
+}
