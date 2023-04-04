@@ -1,3 +1,4 @@
+/*wideScreen css file*/
 #navbar,
 #navbar ul {
   font-size: 2rem;
@@ -26,8 +27,6 @@
   margin-right: 1.1rem;
   text-align: center;
 }
-
-
 
 #who .image {
   flex: 2;
